@@ -74,3 +74,7 @@ Arguments:
 For a local video:
 
     python3 pose_tracking.py -m local -i ./data/input/v1_small.mp4 -o ./data/output/v1_small_result.avi -x 30
+
+<p align="center">
+    <img src="demo.gif", width="480">
+</p>
