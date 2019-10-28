@@ -3,6 +3,7 @@
 This is an implementation of Openpose and  Deep SORT to do tracking and pose estimation in realtime and local videos. This work is based on [Live Tracker](https://github.com/ortegatron/liveposetracker).
 
 OpenPose :  [Article](https://arxiv.org/pdf/1811.11975.pdf)  | [Code](https://github.com/CMU-Perceptual-Computing-Lab/openpose)
+
 Deep SORT: [Article](https://arxiv.org/pdf/1602.00763.pdf) |  [Code](https://github.com/abewley/sort)
 
 <p align="center">
