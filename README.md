@@ -15,7 +15,7 @@ To run this project, you need to install the following packages:
 - [Configparser](https://pypi.org/project/configparser/)
 - [Pytest-warnings](pip%20install%20pytest-warnings)
 
-It�s recommended to use a virtual  [environment](https://help.dreamhost.com/hc/en-us/articles/115000695551-Installing-and-using-virtualenv-with-Python-3).  A configured docker image is available  as well and can be accessed through this link [put link].
+It’s recommended to use a virtual  [environment](https://help.dreamhost.com/hc/en-us/articles/115000695551-Installing-and-using-virtualenv-with-Python-3).  A configured docker image is available  as well and can be accessed through this link [put link].
 
 ### Compiling pyopenpose
 Follow the instructions on [this link](https://medium.com/@robinandreaureni/python-openpose-installation-3fd3a58d4887).
@@ -33,34 +33,34 @@ RUN DOCKER sudo nvidia-docker run -it hugozanini/openpose_tracking:v2
 
 ### Project structure
 ```
-??src  
- ? ??data  
- ? ? ??input  
- ? ? ? ??v1_small.mp4  
- ? ? ??output  
- ? ??deep_sort  
- ? ? ??detection.py  
- ? ? ??iou_matching.py  
- ? ? ??kalman_filter.py  
- ? ? ??linear_assignment.py  
- ? ? ??my_filter.py  
- ? ? ??nn_matching.py  
- ? ? ??preprocessing.py  
- ? ? ??preprocessing.pyc  
- ? ? ??track.py  
- ? ? ??tracker.py  
- ? ? ??__init__.py  
- ? ??model_data  
- ? ? ??mars-small128.pb  
- ? ??tools  
- ? ? ??freeze_model.py  
- ? ? ??generate_detections.py  
- ? ? ??__init__.py    
- ? ??Constants.py  
- ? ??Input.py   
- ? ??pose_tracking.py  
- ? ??Scene.py  
- ? ??utils.py  
+📦src  
+ ┣ 📂data  
+ ┃ ┣ 📂input  
+ ┃ ┃ ┗ 📜v1_small.mp4  
+ ┃ ┗ 📂output  
+ ┣ 📂deep_sort  
+ ┃ ┣ 📜detection.py  
+ ┃ ┣ 📜iou_matching.py  
+ ┃ ┣ 📜kalman_filter.py  
+ ┃ ┣ 📜linear_assignment.py  
+ ┃ ┣ 📜my_filter.py  
+ ┃ ┣ 📜nn_matching.py  
+ ┃ ┣ 📜preprocessing.py  
+ ┃ ┣ 📜preprocessing.pyc  
+ ┃ ┣ 📜track.py  
+ ┃ ┣ 📜tracker.py  
+ ┃ ┣ 📜__init__.py  
+ ┣ 📂model_data  
+ ┃ ┗ 📜mars-small128.pb  
+ ┣ 📂tools  
+ ┃ ┣ 📜freeze_model.py  
+ ┃ ┣ 📜generate_detections.py  
+ ┃ ┣ 📜__init__.py    
+ ┣ 📜Constants.py  
+ ┣ 📜Input.py   
+ ┣ 📜pose_tracking.py  
+ ┣ 📜Scene.py  
+ ┣ 📜utils.py  
 ```
 ### Running an example
 
