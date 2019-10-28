@@ -5,6 +5,9 @@ This is an implementation of Openpose and  Deep SORT to do tracking and pose est
 OpenPose :  [Article](https://arxiv.org/pdf/1811.11975.pdf)  | [Code](https://github.com/CMU-Perceptual-Computing-Lab/openpose)
 Deep SORT: [Article](https://arxiv.org/pdf/1602.00763.pdf) |  [Code](https://github.com/abewley/sort)
 
+<p align="center">
+    <img src="demo.gif", width="480">
+</p>
 
 ## Requeriments
 To run this project, you need to install the following packages:
@@ -74,7 +77,3 @@ Arguments:
 For a local video:
 
     python3 pose_tracking.py -m local -i ./data/input/v1_small.mp4 -o ./data/output/v1_small_result.avi -x 30
-
-<p align="center">
-    <img src="demo.gif", width="480">
-</p>
