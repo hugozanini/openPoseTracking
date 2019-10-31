@@ -29,19 +29,14 @@ PS: If you are note using a GUI interface, it's important to turn on the python 
 ### Running the docker container
 
 [Install docker](https://docs.docker.com/install/linux/docker-ce/ubuntu/)
+
 [Install NVidia Drivers](https://github.com/NVIDIA/nvidia-docker)
 
-```
-wget -P /tmp https://github.com/NVIDIA/nvidia-docker/releases/download/v1.0.1/nvidia-docker_1.0.1-1_amd64.deb
-```
+``` wget -P /tmp https://github.com/NVIDIA/nvidia-docker/releases/download/v1.0.1/nvidia-docker_1.0.1-1_amd64.deb ```
 
-```
-sudo dpkg -i /tmp/nvidia-docker*.deb && rm /tmp/nvidia-docker*.deb
-```
+```sudo dpkg -i /tmp/nvidia-docker*.deb && rm /tmp/nvidia-docker*.deb ```
 
-```
-nvidia-docker run --rm nvidia/cuda nvidia-smi
-```
+``` nvidia-docker run --rm nvidia/cuda nvidia-smi ```
 
 
 Make a place to store our data: ```mkdir data```
@@ -49,11 +44,11 @@ Make a place to store our data: ```mkdir data```
 Docker instructions 
 [Run docker EC2](https://michaelsobrepera.com/guides/openposeaws.html)
 
-sudo nvidia-docker-plugin
+```sudo nvidia-docker-plugin```
 
-RUN DOCKER sudo nvidia-docker run -it hugozanini/openpose_tracking:v2
+RUN DOCKER ```sudo nvidia-docker run -it hugozanini/openpose_tracking:v2```
 
-sudo nvidia-docker run -v /home/ubuntu/data:/data -it hugozanini/openpose_tracking:final bash
+```sudo nvidia-docker run -v /home/ubuntu/data:/data -it hugozanini/openpose_tracking:final bash```
 
 
 
