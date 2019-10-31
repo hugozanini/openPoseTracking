@@ -41,15 +41,12 @@ PS: If you are note using a GUI interface, it's important to turn on the python 
 
 Make a place to store our data: ```mkdir data```
 
-Docker instructions 
-[Run docker EC2](https://michaelsobrepera.com/guides/openposeaws.html)
 
 ```sudo nvidia-docker-plugin```
 
 RUN DOCKER ```sudo nvidia-docker run -it hugozanini/openpose_tracking:v2```
 
 ```sudo nvidia-docker run -v /home/ubuntu/data:/data -it hugozanini/openpose_tracking:final bash```
-
 
 
 ### Project structure
