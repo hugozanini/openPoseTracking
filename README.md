@@ -12,7 +12,7 @@ Deep SORT: [Article](https://arxiv.org/pdf/1602.00763.pdf) |  [Code](https://git
 
 ## Requeriments
 To run this project, you need to install the following packages:
-- [Openpose ]([https://github.com/CMU-Perceptual-Computing-Lab/openpose](https://github.com/CMU-Perceptual-Computing-Lab/openpose))
+- [Openpose](https://github.com/CMU-Perceptual-Computing-Lab/openpose)
 - [OpenCV](https://pypi.org/project/opencv-python/)
 - [Numpy](https://pypi.org/project/numpy/)
 - [Pygame](https://pypi.org/project/pygame/)
